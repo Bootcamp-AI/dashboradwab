@@ -4,7 +4,7 @@ const qrcode = require("qrcode")
 const socketIO = require("socket.io")
 const { rm } = require("fs")
 
-const { default: makeWASocket, DisconnectReason, useMultiFileAuthState, delay } = require('baileys')
+const { default: makeWASocket, DisconnectReason, useMultiFileAuthState, delay } = require('@adiwajshing/baileys')
 const pino = require('pino')
 
 const port = 8000
